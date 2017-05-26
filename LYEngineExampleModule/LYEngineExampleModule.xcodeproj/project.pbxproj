@@ -14,7 +14,7 @@
 		0AA8054B1ED7CB5400A0F6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8054A1ED7CB5400A0F6BE /* Assets.xcassets */; };
 		0AA8054E1ED7CB5400A0F6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8054C1ED7CB5400A0F6BE /* LaunchScreen.storyboard */; };
 		0AA805591ED7CD4500A0F6BE /* LYEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA805581ED7CD4500A0F6BE /* LYEngine.framework */; };
-		0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8055E1ED7D09400A0F6BE /* ExampleModule.h */; };
+		0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8055E1ED7D09400A0F6BE /* ExampleModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AA805611ED7D09400A0F6BE /* ExampleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8055F1ED7D09400A0F6BE /* ExampleModule.m */; };
 		0AA805641ED7D14B00A0F6BE /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805621ED7D14B00A0F6BE /* Example.h */; };
 		0AA805651ED7D14B00A0F6BE /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805631ED7D14B00A0F6BE /* Example.m */; };
@@ -221,11 +221,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA805671ED7D17000A0F6BE /* ExampleUserCaseProtocol.h in Headers */,
+				0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */,
 				0AA805721ED7D25300A0F6BE /* ExampleViewController.h in Headers */,
 				0AA805321ED7CB3800A0F6BE /* LYEngineExampleModule.h in Headers */,
 				0AA8056E1ED7D1B000A0F6BE /* ExampleUserCase.h in Headers */,
 				0AA8058F1ED7F9F800A0F6BE /* ExampleViewData.h in Headers */,
-				0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */,
 				0AA805641ED7D14B00A0F6BE /* Example.h in Headers */,
 				0AA8056A1ED7D19800A0F6BE /* ExampleViewModel.h in Headers */,
 			);
