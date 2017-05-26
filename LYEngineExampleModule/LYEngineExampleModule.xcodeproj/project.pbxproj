@@ -42,6 +42,7 @@
 		0AA8058F1ED7F9F800A0F6BE /* ExampleViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8058D1ED7F9F800A0F6BE /* ExampleViewData.h */; };
 		0AA805901ED7F9F800A0F6BE /* ExampleViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */; };
 		0AF1A9B71ED7FB8F001C67C5 /* ExampleViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */; };
+		0AF1A9E31ED81324001C67C5 /* LYEngineExampleModule.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805531ED7CB8500A0F6BE /* LYEngineExampleModule.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -222,6 +223,7 @@
 			files = (
 				0AA805671ED7D17000A0F6BE /* ExampleUserCaseProtocol.h in Headers */,
 				0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */,
+				0AF1A9E31ED81324001C67C5 /* LYEngineExampleModule.pch in Headers */,
 				0AA805721ED7D25300A0F6BE /* ExampleViewController.h in Headers */,
 				0AA805321ED7CB3800A0F6BE /* LYEngineExampleModule.h in Headers */,
 				0AA8056E1ED7D1B000A0F6BE /* ExampleUserCase.h in Headers */,
