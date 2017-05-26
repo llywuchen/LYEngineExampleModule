@@ -42,7 +42,6 @@
 		0AA8058F1ED7F9F800A0F6BE /* ExampleViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8058D1ED7F9F800A0F6BE /* ExampleViewData.h */; };
 		0AA805901ED7F9F800A0F6BE /* ExampleViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */; };
 		0AF1A9B71ED7FB8F001C67C5 /* ExampleViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */; };
-		0AF1A9E31ED81324001C67C5 /* LYEngineExampleModule.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805531ED7CB8500A0F6BE /* LYEngineExampleModule.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +56,6 @@
 		0AA8054A1ED7CB5400A0F6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA8054D1ED7CB5400A0F6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AA8054F1ED7CB5400A0F6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AA805531ED7CB8500A0F6BE /* LYEngineExampleModule.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYEngineExampleModule.pch; sourceTree = "<group>"; };
 		0AA805581ED7CD4500A0F6BE /* LYEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LYEngine.framework; path = ../Carthage/Build/iOS/LYEngine.framework; sourceTree = "<group>"; };
 		0AA8055E1ED7D09400A0F6BE /* ExampleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleModule.h; sourceTree = "<group>"; };
 		0AA8055F1ED7D09400A0F6BE /* ExampleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleModule.m; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 				0AA805541ED7CC3300A0F6BE /* View */,
 				0AA805301ED7CB3800A0F6BE /* LYEngineExampleModule.h */,
 				0AA805311ED7CB3800A0F6BE /* Info.plist */,
-				0AA805531ED7CB8500A0F6BE /* LYEngineExampleModule.pch */,
 				0AA8055E1ED7D09400A0F6BE /* ExampleModule.h */,
 				0AA8055F1ED7D09400A0F6BE /* ExampleModule.m */,
 			);
@@ -223,7 +220,6 @@
 			files = (
 				0AA805671ED7D17000A0F6BE /* ExampleUserCaseProtocol.h in Headers */,
 				0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */,
-				0AF1A9E31ED81324001C67C5 /* LYEngineExampleModule.pch in Headers */,
 				0AA805721ED7D25300A0F6BE /* ExampleViewController.h in Headers */,
 				0AA805321ED7CB3800A0F6BE /* LYEngineExampleModule.h in Headers */,
 				0AA8056E1ED7D1B000A0F6BE /* ExampleUserCase.h in Headers */,
@@ -515,7 +511,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = LYEngineExampleModule/LYEngineExampleModule.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = LYEngineExampleModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -536,7 +532,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = LYEngineExampleModule/LYEngineExampleModule.pch;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = LYEngineExampleModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

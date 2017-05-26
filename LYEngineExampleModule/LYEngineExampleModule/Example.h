@@ -6,7 +6,7 @@
 //  Copyright © 2017年 franklin. All rights reserved.
 //
 
-#import <LYEngine/LYEngine.h>
+#import <LYEngine/LYModel.h>
 
 @interface Example : LYModel
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <LYEngine/LYModule.h>
 #define ExampleModuleMainVC @"ExampleModuleMainVC"
 
 @interface ExampleModule : LYModule
