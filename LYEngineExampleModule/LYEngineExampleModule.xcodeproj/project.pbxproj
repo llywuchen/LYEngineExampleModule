@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA805321ED7CB3800A0F6BE /* LYEngineExampleModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805301ED7CB3800A0F6BE /* LYEngineExampleModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA805401ED7CB5400A0F6BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8053F1ED7CB5400A0F6BE /* main.m */; };
+		0AA805431ED7CB5400A0F6BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805421ED7CB5400A0F6BE /* AppDelegate.m */; };
+		0AA805491ED7CB5400A0F6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA805471ED7CB5400A0F6BE /* Main.storyboard */; };
+		0AA8054B1ED7CB5400A0F6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8054A1ED7CB5400A0F6BE /* Assets.xcassets */; };
+		0AA8054E1ED7CB5400A0F6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8054C1ED7CB5400A0F6BE /* LaunchScreen.storyboard */; };
+		0AA805591ED7CD4500A0F6BE /* LYEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA805581ED7CD4500A0F6BE /* LYEngine.framework */; };
+		0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8055E1ED7D09400A0F6BE /* ExampleModule.h */; };
+		0AA805611ED7D09400A0F6BE /* ExampleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8055F1ED7D09400A0F6BE /* ExampleModule.m */; };
+		0AA805641ED7D14B00A0F6BE /* Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805621ED7D14B00A0F6BE /* Example.h */; };
+		0AA805651ED7D14B00A0F6BE /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805631ED7D14B00A0F6BE /* Example.m */; };
+		0AA805671ED7D17000A0F6BE /* ExampleUserCaseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805661ED7D17000A0F6BE /* ExampleUserCaseProtocol.h */; };
+		0AA8056A1ED7D19800A0F6BE /* ExampleViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805681ED7D19800A0F6BE /* ExampleViewModel.h */; };
+		0AA8056B1ED7D19800A0F6BE /* ExampleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805691ED7D19800A0F6BE /* ExampleViewModel.m */; };
+		0AA8056E1ED7D1B000A0F6BE /* ExampleUserCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8056C1ED7D1B000A0F6BE /* ExampleUserCase.h */; };
+		0AA8056F1ED7D1B000A0F6BE /* ExampleUserCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8056D1ED7D1B000A0F6BE /* ExampleUserCase.m */; };
+		0AA805721ED7D25300A0F6BE /* ExampleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA805701ED7D25300A0F6BE /* ExampleViewController.h */; };
+		0AA805731ED7D25300A0F6BE /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805711ED7D25300A0F6BE /* ExampleViewController.m */; };
+		0AA805771ED7D2C300A0F6BE /* LYWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA805761ED7D2C300A0F6BE /* LYWebService.framework */; };
+		0AA8057A1ED7DC1C00A0F6BE /* LYEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA805581ED7CD4500A0F6BE /* LYEngine.framework */; };
+		0AA8057B1ED7DC1C00A0F6BE /* LYWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA805761ED7D2C300A0F6BE /* LYWebService.framework */; };
+		0AA805821ED7DC1D00A0F6BE /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA8057C1ED7DC1D00A0F6BE /* AFNetworking.framework */; };
+		0AA805831ED7DC1D00A0F6BE /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA8057D1ED7DC1D00A0F6BE /* OCHamcrest.framework */; };
+		0AA805841ED7DC1D00A0F6BE /* OCMockito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA8057E1ED7DC1D00A0F6BE /* OCMockito.framework */; };
+		0AA805851ED7DC1D00A0F6BE /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA8057F1ED7DC1D00A0F6BE /* ReactiveObjC.framework */; };
+		0AA805861ED7DC1D00A0F6BE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA805801ED7DC1D00A0F6BE /* Realm.framework */; };
+		0AA805871ED7DC1D00A0F6BE /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA805811ED7DC1D00A0F6BE /* YYModel.framework */; };
+		0AA805881ED7DD9A00A0F6BE /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805631ED7D14B00A0F6BE /* Example.m */; };
+		0AA805891ED7DD9A00A0F6BE /* ExampleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805691ED7D19800A0F6BE /* ExampleViewModel.m */; };
+		0AA8058A1ED7DD9A00A0F6BE /* ExampleUserCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8056D1ED7D1B000A0F6BE /* ExampleUserCase.m */; };
+		0AA8058B1ED7DD9A00A0F6BE /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA805711ED7D25300A0F6BE /* ExampleViewController.m */; };
+		0AA8058C1ED7DD9A00A0F6BE /* ExampleModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8055F1ED7D09400A0F6BE /* ExampleModule.m */; };
+		0AA8058F1ED7F9F800A0F6BE /* ExampleViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA8058D1ED7F9F800A0F6BE /* ExampleViewData.h */; };
+		0AA805901ED7F9F800A0F6BE /* ExampleViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */; };
+		0AF1A9B71ED7FB8F001C67C5 /* ExampleViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AA8052D1ED7CB3800A0F6BE /* LYEngineExampleModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYEngineExampleModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA805301ED7CB3800A0F6BE /* LYEngineExampleModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYEngineExampleModule.h; sourceTree = "<group>"; };
+		0AA805311ED7CB3800A0F6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA8053C1ED7CB5400A0F6BE /* LYEngineExampleModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYEngineExampleModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA8053F1ED7CB5400A0F6BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AA805411ED7CB5400A0F6BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AA805421ED7CB5400A0F6BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AA805481ED7CB5400A0F6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AA8054A1ED7CB5400A0F6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AA8054D1ED7CB5400A0F6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AA8054F1ED7CB5400A0F6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA805531ED7CB8500A0F6BE /* LYEngineExampleModule.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYEngineExampleModule.pch; sourceTree = "<group>"; };
+		0AA805581ED7CD4500A0F6BE /* LYEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LYEngine.framework; path = ../Carthage/Build/iOS/LYEngine.framework; sourceTree = "<group>"; };
+		0AA8055E1ED7D09400A0F6BE /* ExampleModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleModule.h; sourceTree = "<group>"; };
+		0AA8055F1ED7D09400A0F6BE /* ExampleModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleModule.m; sourceTree = "<group>"; };
+		0AA805621ED7D14B00A0F6BE /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		0AA805631ED7D14B00A0F6BE /* Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example.m; sourceTree = "<group>"; };
+		0AA805661ED7D17000A0F6BE /* ExampleUserCaseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleUserCaseProtocol.h; sourceTree = "<group>"; };
+		0AA805681ED7D19800A0F6BE /* ExampleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewModel.h; sourceTree = "<group>"; };
+		0AA805691ED7D19800A0F6BE /* ExampleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewModel.m; sourceTree = "<group>"; };
+		0AA8056C1ED7D1B000A0F6BE /* ExampleUserCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleUserCase.h; sourceTree = "<group>"; };
+		0AA8056D1ED7D1B000A0F6BE /* ExampleUserCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleUserCase.m; sourceTree = "<group>"; };
+		0AA805701ED7D25300A0F6BE /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		0AA805711ED7D25300A0F6BE /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		0AA805761ED7D2C300A0F6BE /* LYWebService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LYWebService.framework; path = ../Carthage/Build/iOS/LYWebService.framework; sourceTree = "<group>"; };
+		0AA805781ED7DA6600A0F6BE /* ExampleDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleDemo.pch; sourceTree = "<group>"; };
+		0AA8057C1ED7DC1D00A0F6BE /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		0AA8057D1ED7DC1D00A0F6BE /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = ../Carthage/Build/iOS/OCHamcrest.framework; sourceTree = "<group>"; };
+		0AA8057E1ED7DC1D00A0F6BE /* OCMockito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockito.framework; path = ../Carthage/Build/iOS/OCMockito.framework; sourceTree = "<group>"; };
+		0AA8057F1ED7DC1D00A0F6BE /* ReactiveObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveObjC.framework; path = ../Carthage/Build/iOS/ReactiveObjC.framework; sourceTree = "<group>"; };
+		0AA805801ED7DC1D00A0F6BE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		0AA805811ED7DC1D00A0F6BE /* YYModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYModel.framework; path = ../Carthage/Build/iOS/YYModel.framework; sourceTree = "<group>"; };
+		0AA8058D1ED7F9F800A0F6BE /* ExampleViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewData.h; sourceTree = "<group>"; };
+		0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA805291ED7CB3800A0F6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA805771ED7D2C300A0F6BE /* LYWebService.framework in Frameworks */,
+				0AA805591ED7CD4500A0F6BE /* LYEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA805391ED7CB5400A0F6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA805821ED7DC1D00A0F6BE /* AFNetworking.framework in Frameworks */,
+				0AA805831ED7DC1D00A0F6BE /* OCHamcrest.framework in Frameworks */,
+				0AA805841ED7DC1D00A0F6BE /* OCMockito.framework in Frameworks */,
+				0AA805851ED7DC1D00A0F6BE /* ReactiveObjC.framework in Frameworks */,
+				0AA805861ED7DC1D00A0F6BE /* Realm.framework in Frameworks */,
+				0AA805871ED7DC1D00A0F6BE /* YYModel.framework in Frameworks */,
+				0AA8057A1ED7DC1C00A0F6BE /* LYEngine.framework in Frameworks */,
+				0AA8057B1ED7DC1C00A0F6BE /* LYWebService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA805231ED7CB3800A0F6BE = {
+			isa = PBXGroup;
+			children = (
+				0AA8052F1ED7CB3800A0F6BE /* LYEngineExampleModule */,
+				0AA8053D1ED7CB5400A0F6BE /* LYEngineExampleModuleDemo */,
+				0AA8052E1ED7CB3800A0F6BE /* Products */,
+				0AA805571ED7CD4400A0F6BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AA8052E1ED7CB3800A0F6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8052D1ED7CB3800A0F6BE /* LYEngineExampleModule.framework */,
+				0AA8053C1ED7CB5400A0F6BE /* LYEngineExampleModuleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AA8052F1ED7CB3800A0F6BE /* LYEngineExampleModule */ = {
+			isa = PBXGroup;
+			children = (
+				0AA805561ED7CC4700A0F6BE /* Model */,
+				0AA805551ED7CC3D00A0F6BE /* ViewModel */,
+				0AA805541ED7CC3300A0F6BE /* View */,
+				0AA805301ED7CB3800A0F6BE /* LYEngineExampleModule.h */,
+				0AA805311ED7CB3800A0F6BE /* Info.plist */,
+				0AA805531ED7CB8500A0F6BE /* LYEngineExampleModule.pch */,
+				0AA8055E1ED7D09400A0F6BE /* ExampleModule.h */,
+				0AA8055F1ED7D09400A0F6BE /* ExampleModule.m */,
+			);
+			path = LYEngineExampleModule;
+			sourceTree = "<group>";
+		};
+		0AA8053D1ED7CB5400A0F6BE /* LYEngineExampleModuleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0AA805411ED7CB5400A0F6BE /* AppDelegate.h */,
+				0AA805421ED7CB5400A0F6BE /* AppDelegate.m */,
+				0AA805471ED7CB5400A0F6BE /* Main.storyboard */,
+				0AA8054A1ED7CB5400A0F6BE /* Assets.xcassets */,
+				0AA8054C1ED7CB5400A0F6BE /* LaunchScreen.storyboard */,
+				0AA8054F1ED7CB5400A0F6BE /* Info.plist */,
+				0AA8053E1ED7CB5400A0F6BE /* Supporting Files */,
+				0AA805781ED7DA6600A0F6BE /* ExampleDemo.pch */,
+			);
+			path = LYEngineExampleModuleDemo;
+			sourceTree = "<group>";
+		};
+		0AA8053E1ED7CB5400A0F6BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8053F1ED7CB5400A0F6BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AA805541ED7CC3300A0F6BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AA805701ED7D25300A0F6BE /* ExampleViewController.h */,
+				0AA805711ED7D25300A0F6BE /* ExampleViewController.m */,
+				0AA8058D1ED7F9F800A0F6BE /* ExampleViewData.h */,
+				0AA8058E1ED7F9F800A0F6BE /* ExampleViewData.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0AA805551ED7CC3D00A0F6BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0AA805681ED7D19800A0F6BE /* ExampleViewModel.h */,
+				0AA805691ED7D19800A0F6BE /* ExampleViewModel.m */,
+				0AA8056C1ED7D1B000A0F6BE /* ExampleUserCase.h */,
+				0AA8056D1ED7D1B000A0F6BE /* ExampleUserCase.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		0AA805561ED7CC4700A0F6BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AA805621ED7D14B00A0F6BE /* Example.h */,
+				0AA805631ED7D14B00A0F6BE /* Example.m */,
+				0AA805661ED7D17000A0F6BE /* ExampleUserCaseProtocol.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0AA805571ED7CD4400A0F6BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AA8057C1ED7DC1D00A0F6BE /* AFNetworking.framework */,
+				0AA8057D1ED7DC1D00A0F6BE /* OCHamcrest.framework */,
+				0AA8057E1ED7DC1D00A0F6BE /* OCMockito.framework */,
+				0AA8057F1ED7DC1D00A0F6BE /* ReactiveObjC.framework */,
+				0AA805801ED7DC1D00A0F6BE /* Realm.framework */,
+				0AA805811ED7DC1D00A0F6BE /* YYModel.framework */,
+				0AA805761ED7D2C300A0F6BE /* LYWebService.framework */,
+				0AA805581ED7CD4500A0F6BE /* LYEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AA8052A1ED7CB3800A0F6BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA805671ED7D17000A0F6BE /* ExampleUserCaseProtocol.h in Headers */,
+				0AA805721ED7D25300A0F6BE /* ExampleViewController.h in Headers */,
+				0AA805321ED7CB3800A0F6BE /* LYEngineExampleModule.h in Headers */,
+				0AA8056E1ED7D1B000A0F6BE /* ExampleUserCase.h in Headers */,
+				0AA8058F1ED7F9F800A0F6BE /* ExampleViewData.h in Headers */,
+				0AA805601ED7D09400A0F6BE /* ExampleModule.h in Headers */,
+				0AA805641ED7D14B00A0F6BE /* Example.h in Headers */,
+				0AA8056A1ED7D19800A0F6BE /* ExampleViewModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AA8052C1ED7CB3800A0F6BE /* LYEngineExampleModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA805351ED7CB3800A0F6BE /* Build configuration list for PBXNativeTarget "LYEngineExampleModule" */;
+			buildPhases = (
+				0AA805281ED7CB3800A0F6BE /* Sources */,
+				0AA805291ED7CB3800A0F6BE /* Frameworks */,
+				0AA8052A1ED7CB3800A0F6BE /* Headers */,
+				0AA8052B1ED7CB3800A0F6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYEngineExampleModule;
+			productName = LYEngineExampleModule;
+			productReference = 0AA8052D1ED7CB3800A0F6BE /* LYEngineExampleModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AA8053B1ED7CB5400A0F6BE /* LYEngineExampleModuleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA805501ED7CB5400A0F6BE /* Build configuration list for PBXNativeTarget "LYEngineExampleModuleDemo" */;
+			buildPhases = (
+				0AA805381ED7CB5400A0F6BE /* Sources */,
+				0AA805391ED7CB5400A0F6BE /* Frameworks */,
+				0AA8053A1ED7CB5400A0F6BE /* Resources */,
+				0AA805791ED7DB4000A0F6BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYEngineExampleModuleDemo;
+			productName = LYEngineExampleModuleDemo;
+			productReference = 0AA8053C1ED7CB5400A0F6BE /* LYEngineExampleModuleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA805241ED7CB3800A0F6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = franklin;
+				TargetAttributes = {
+					0AA8052C1ED7CB3800A0F6BE = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					0AA8053B1ED7CB5400A0F6BE = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0AA805271ED7CB3800A0F6BE /* Build configuration list for PBXProject "LYEngineExampleModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AA805231ED7CB3800A0F6BE;
+			productRefGroup = 0AA8052E1ED7CB3800A0F6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA8052C1ED7CB3800A0F6BE /* LYEngineExampleModule */,
+				0AA8053B1ED7CB5400A0F6BE /* LYEngineExampleModuleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AA8052B1ED7CB3800A0F6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA8053A1ED7CB5400A0F6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA8054E1ED7CB5400A0F6BE /* LaunchScreen.storyboard in Resources */,
+				0AA8054B1ED7CB5400A0F6BE /* Assets.xcassets in Resources */,
+				0AA805491ED7CB5400A0F6BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA805791ED7DB4000A0F6BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/ReactiveObjC.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/OCMockito.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/OCHamcrest.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/LYWebService.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/AFNetworking.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/YYModel.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/LYEngine.framework",
+				"$(SRCROOT)/../Carthage/Build/iOS/Masonry.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n\n$PROJECT_DIR/../Carthage/Build/iOS/LYWebService.framework/create_webservice.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA805281ED7CB3800A0F6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA805651ED7D14B00A0F6BE /* Example.m in Sources */,
+				0AA8056B1ED7D19800A0F6BE /* ExampleViewModel.m in Sources */,
+				0AA805731ED7D25300A0F6BE /* ExampleViewController.m in Sources */,
+				0AA805611ED7D09400A0F6BE /* ExampleModule.m in Sources */,
+				0AA8056F1ED7D1B000A0F6BE /* ExampleUserCase.m in Sources */,
+				0AA805901ED7F9F800A0F6BE /* ExampleViewData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA805381ED7CB5400A0F6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1A9B71ED7FB8F001C67C5 /* ExampleViewData.m in Sources */,
+				0AA805881ED7DD9A00A0F6BE /* Example.m in Sources */,
+				0AA805891ED7DD9A00A0F6BE /* ExampleViewModel.m in Sources */,
+				0AA8058A1ED7DD9A00A0F6BE /* ExampleUserCase.m in Sources */,
+				0AA8058B1ED7DD9A00A0F6BE /* ExampleViewController.m in Sources */,
+				0AA8058C1ED7DD9A00A0F6BE /* ExampleModule.m in Sources */,
+				0AA805431ED7CB5400A0F6BE /* AppDelegate.m in Sources */,
+				0AA805401ED7CB5400A0F6BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AA805471ED7CB5400A0F6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA805481ED7CB5400A0F6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AA8054C1ED7CB5400A0F6BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA8054D1ED7CB5400A0F6BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AA805331ED7CB3800A0F6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AA805341ED7CB3800A0F6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0AA805361ED7CB3800A0F6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = LYEngineExampleModule/LYEngineExampleModule.pch;
+				INFOPLIST_FILE = LYEngineExampleModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.franklin.LYEngineExampleModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0AA805371ED7CB3800A0F6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = LYEngineExampleModule/LYEngineExampleModule.pch;
+				INFOPLIST_FILE = LYEngineExampleModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.franklin.LYEngineExampleModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0AA805511ED7CB5400A0F6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
+				GCC_PREFIX_HEADER = LYEngineExampleModuleDemo/ExampleDemo.pch;
+				INFOPLIST_FILE = LYEngineExampleModuleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.franklin.LYEngineExampleModuleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AA805521ED7CB5400A0F6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS/";
+				GCC_PREFIX_HEADER = LYEngineExampleModuleDemo/ExampleDemo.pch;
+				INFOPLIST_FILE = LYEngineExampleModuleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lly.franklin.LYEngineExampleModuleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA805271ED7CB3800A0F6BE /* Build configuration list for PBXProject "LYEngineExampleModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA805331ED7CB3800A0F6BE /* Debug */,
+				0AA805341ED7CB3800A0F6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA805351ED7CB3800A0F6BE /* Build configuration list for PBXNativeTarget "LYEngineExampleModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA805361ED7CB3800A0F6BE /* Debug */,
+				0AA805371ED7CB3800A0F6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA805501ED7CB5400A0F6BE /* Build configuration list for PBXNativeTarget "LYEngineExampleModuleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA805511ED7CB5400A0F6BE /* Debug */,
+				0AA805521ED7CB5400A0F6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA805241ED7CB3800A0F6BE /* Project object */;
+}
