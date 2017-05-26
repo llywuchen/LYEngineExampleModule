@@ -240,6 +240,7 @@
 				0AA805291ED7CB3800A0F6BE /* Frameworks */,
 				0AA8052A1ED7CB3800A0F6BE /* Headers */,
 				0AA8052B1ED7CB3800A0F6BE /* Resources */,
+				0AF1A9E61ED83059001C67C5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -348,6 +349,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n\n$PROJECT_DIR/../Carthage/Build/iOS/LYWebService.framework/create_webservice.sh";
+		};
+		0AF1A9E61ED83059001C67C5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = $PROJECT_DIR/../Carthage/Build/iOS/LYWebService.framework/create_webservice.sh;
 		};
 /* End PBXShellScriptBuildPhase section */
 

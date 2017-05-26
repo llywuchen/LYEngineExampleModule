@@ -18,7 +18,8 @@
 
 - (id<ExampleUserCaseAPI>)requestManager{
     if(!_requestManager){
-        _requestManager = LYWebRequest(ExampleUserCaseAPI);
+        LYModule *m = [self belongModule];
+        _requestManager = [LYWebClientInstance create:@protocol(ExampleUserCaseAPI) bundle:m.bundle host:m.APIHost];//LYWebRequest(ExampleUserCaseAPI);
     }
     return _requestManager;
 }
